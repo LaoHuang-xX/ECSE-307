@@ -1,0 +1,640 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.15)  29 OCT 2017 17:56
+entering extended mode
+**./Lab4Report.tex
+(Lab4Report.tex
+LaTeX2e <2017-04-15>
+Babel <3.10> and hyphenation patterns for 75 language(s) loaded.
+(C:\LateX\MiKTeX\tex\latex\base\article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(C:\LateX\MiKTeX\tex\latex\base\size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(C:\LateX\MiKTeX\tex\latex\amsmath\amsmath.sty
+Package: amsmath 2016/11/05 v2.16a AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(C:\LateX\MiKTeX\tex\latex\amsmath\amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(C:\LateX\MiKTeX\tex\latex\amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks14
+\ex@=\dimen103
+))
+(C:\LateX\MiKTeX\tex\latex\amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen104
+)
+(C:\LateX\MiKTeX\tex\latex\amsmath\amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count87
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count88
+\leftroot@=\count89
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count90
+\DOTSCASE@=\count91
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count92
+\c@MaxMatrixCols=\count93
+\dotsspace@=\muskip10
+\c@parentequation=\count94
+\dspbrk@lvl=\count95
+\tag@help=\toks15
+\row@=\count96
+\column@=\count97
+\maxfields@=\count98
+\andhelp@=\toks16
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks17
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks18
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+(C:\LateX\MiKTeX\tex\latex\graphics\graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\LateX\MiKTeX\tex\latex\graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+(C:\LateX\MiKTeX\tex\latex\graphics\graphics.sty
+Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\LateX\MiKTeX\tex\latex\graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(C:\LateX\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(C:\LateX\MiKTeX\tex\latex\graphics-def\pdftex.def
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+
+(C:\LateX\MiKTeX\tex\generic\oberdiek\infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(C:\LateX\MiKTeX\tex\generic\oberdiek\ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count99
+))
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+)
+(C:\LateX\MiKTeX\tex\latex\was\gensymb.sty
+Package: gensymb 2003/07/02 v1.0 (WaS)
+)
+(C:\LateX\MiKTeX\tex\latex\float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count100
+\float@exts=\toks20
+\float@box=\box28
+\@float@everytoks=\toks21
+\@floatcapt=\box29
+)
+(C:\LateX\MiKTeX\tex\latex\mathtools\mathtools.sty
+Package: mathtools 2017/05/24 v1.19 mathematical typesetting tools
+
+(C:\LateX\MiKTeX\tex\latex\tools\calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count101
+\calc@Bcount=\count102
+\calc@Adimen=\dimen114
+\calc@Bdimen=\dimen115
+\calc@Askip=\skip46
+\calc@Bskip=\skip47
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count103
+\calc@Cskip=\skip48
+)
+(C:\LateX\MiKTeX\tex\latex\mathtools\mhsetup.sty
+Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count104
+\l_MT_multwidth_dim=\dimen116
+\origjot=\skip49
+\l_MT_shortvdotswithinadjustabove_dim=\dimen117
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen118
+\l_MT_above_intertext_sep=\dimen119
+\l_MT_below_intertext_sep=\dimen120
+\l_MT_above_shortintertext_sep=\dimen121
+\l_MT_below_shortintertext_sep=\dimen122
+)
+(C:\LateX\MiKTeX\tex\latex\listings\listings.sty
+\lst@mode=\count105
+\lst@gtempboxa=\box30
+\lst@token=\toks22
+\lst@length=\count106
+\lst@currlwidth=\dimen123
+\lst@column=\count107
+\lst@pos=\count108
+\lst@lostspace=\dimen124
+\lst@width=\dimen125
+\lst@newlines=\count109
+\lst@lineno=\count110
+\lst@maxwidth=\dimen126
+
+(C:\LateX\MiKTeX\tex\latex\listings\lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count111
+\lst@skipnumbers=\count112
+\lst@framebox=\box31
+)
+(C:\LateX\MiKTeX\tex\latex\listings\listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+(C:\LateX\MiKTeX\tex\latex\lettrine\lettrine.sty
+File: lettrine.sty 2015/08/31 v1.9 (Daniel Flipo)
+\c@DefaultLines=\count113
+\c@DefaultDepth=\count114
+\DefaultFindent=\dimen127
+\DefaultNindent=\dimen128
+\DefaultSlope=\dimen129
+\DiscardVskip=\dimen130
+\L@lbox=\box32
+\L@tbox=\box33
+\c@L@lines=\count115
+\c@L@depth=\count116
+\L@Pindent=\dimen131
+\L@Findent=\dimen132
+\L@Nindent=\dimen133
+\L@lraise=\dimen134
+\L@first=\dimen135
+\L@next=\dimen136
+\L@slope=\dimen137
+\L@height=\dimen138
+\L@novskip=\dimen139
+\LettrineWidth=\dimen140
+\LettrineHeight=\dimen141
+\LettrineDepth=\dimen142
+
+Loading lettrine.cfg
+(C:\LateX\MiKTeX\tex\latex\lettrine\lettrine.cfg))
+(C:\LateX\MiKTeX\tex\latex\tools\tabularx.sty
+Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
+
+(C:\LateX\MiKTeX\tex\latex\tools\array.sty
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen143
+\extrarowheight=\dimen144
+\NC@list=\toks23
+\extratabsurround=\skip50
+\backup@length=\skip51
+)
+\TX@col@width=\dimen145
+\TX@old@table=\dimen146
+\TX@old@col=\dimen147
+\TX@target=\dimen148
+\TX@delta=\dimen149
+\TX@cols=\count117
+\TX@ftn=\toks24
+)
+(C:\LateX\MiKTeX\tex\latex\graphics\color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+(C:\LateX\MiKTeX\tex\latex\graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+(C:\LateX\MiKTeX\tex\latex\inconsolata\inconsolata.sty
+Package: inconsolata 2017/01/04 v1.112
+
+`inconsolata-zi4' v1.112, 2017/01/04 Text macros for Inconsolata (msharpe)
+(C:\LateX\MiKTeX\tex\latex\base\textcomp.sty
+Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+(C:\LateX\MiKTeX\tex\latex\base\ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
+(C:\LateX\MiKTeX\tex\latex\xkeyval\xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(C:\LateX\MiKTeX\tex\generic\xkeyval\xkeyval.tex
+(C:\LateX\MiKTeX\tex\generic\xkeyval\xkvutils.tex
+\XKV@toks=\toks25
+\XKV@tempa@toks=\toks26
+)
+\XKV@depth=\count118
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+\zifour@ocount=\count119
+)
+(C:\LateX\MiKTeX\tex\latex\listings\lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+) (Lab4Report.aux)
+\openout1 = `Lab4Report.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 33.
+
+(C:\LateX\MiKTeX\tex\latex\base\ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 33.
+
+(C:\LateX\MiKTeX\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count120
+\scratchdimen=\dimen150
+\scratchbox=\box34
+\nofMPsegments=\count121
+\nofMParguments=\count122
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count123
+\MPscratchDim=\dimen151
+\MPnumerator=\count124
+\makeMPintoPDFobject=\count125
+\everyMPtoPDFconversion=\toks28
+) (C:\LateX\MiKTeX\tex\generic\oberdiek\pdftexcmds.sty
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\LateX\MiKTeX\tex\generic\oberdiek\ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(C:\LateX\MiKTeX\tex\generic\oberdiek\ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(C:\LateX\MiKTeX\tex\latex\oberdiek\epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(C:\LateX\MiKTeX\tex\latex\oberdiek\grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(C:\LateX\MiKTeX\tex\generic\oberdiek\kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+(C:\LateX\MiKTeX\tex\latex\oberdiek\kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(C:\LateX\MiKTeX\tex\generic\oberdiek\kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(C:\LateX\MiKTeX\tex\generic\oberdiek\etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+\symgns@font=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
+(Font)                  TS1/cmr/m/n --> TS1/cmr/bx/n on input line 33.
+Package gensymb Info: Math companion symbols declared on input line 33.
+LaTeX Info: Redefining \degree on input line 33.
+LaTeX Info: Redefining \celsius on input line 33.
+Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
+erthousand on input line 33.
+LaTeX Info: Redefining \ohm on input line 33.
+Package gensymb Info: Using \textohm for \ohm on input line 33.
+Package gensymb Info: Using \textmu for \micro on input line 33.
+\c@lstlisting=\count126
+
+(C:\LateX\MiKTeX\tex\latex\upquote\upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+) [1
+
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] <PIDData.png, id=9, 710.0
+5275pt x 155.3805pt>
+File: PIDData.png Graphic file (type png)
+
+<use PIDData.png>
+Package pdftex.def Info: PIDData.png used on input line 39.
+(pdftex.def)             Requested size: 221.0pt x 48.35948pt.
+ <G_step.png, id=10, 526.96875pt x 395.22656pt>
+File: G_step.png Graphic file (type png)
+
+<use G_step.png>
+Package pdftex.def Info: G_step.png used on input line 52.
+(pdftex.def)             Requested size: 221.0pt x 165.75279pt.
+LaTeX Font Info:    Try loading font information for OT1+zi4 on input line 58.
+ (C:\LateX\MiKTeX\tex\latex\inconsolata\ot1zi4.fd
+File: ot1zi4.fd 2016/12/29 OT1/zi4 (Inconsolata)
+)
+LaTeX Font Info:    Font shape `OT1/zi4/m/n' will be
+(Font)              scaled to size 10.0pt on input line 58.
+
+<rlocus.png, id=11, 526.96875pt x 395.22656pt>
+File: rlocus.png Graphic file (type png)
+ <use rlocus.png>
+Package pdftex.def Info: rlocus.png used on input line 78.
+(pdftex.def)             Requested size: 221.0pt x 165.75279pt.
+
+<StepPC.png, id=12, 526.96875pt x 395.22656pt>
+File: StepPC.png Graphic file (type png)
+ <use StepPC.png>
+Package pdftex.def Info: StepPC.png used on input line 88.
+(pdftex.def)             Requested size: 221.0pt x 165.75279pt.
+
+Underfull \vbox (badness 4266) has occurred while \output is active []
+
+ [1
+
+ <./PIDData.png> <./G_step.png (PNG copy)> <./rlocus.png (PNG copy)>]
+<p-rej-step.png, id=22, 843.15pt x 632.3625pt>
+File: p-rej-step.png Graphic file (type png)
+ <use p-rej-step.png>
+Package pdftex.def Info: p-rej-step.png used on input line 117.
+(pdftex.def)             Requested size: 221.0pt x 165.74194pt.
+
+Underfull \vbox (badness 3029) has occurred while \output is active []
+
+
+<p-track-step.png, id=23, 843.15pt x 632.3625pt>
+File: p-track-step.png Graphic file (type png)
+ <use p-track-step.png>
+Package pdftex.def Info: p-track-step.png used on input line 125.
+(pdftex.def)             Requested size: 221.0pt x 165.74194pt.
+
+<p-balance-step.png, id=24, 843.15pt x 632.3625pt>
+File: p-balance-step.png Graphic file (type png)
+ <use p-balance-step.png>
+Package pdftex.def Info: p-balance-step.png used on input line 132.
+(pdftex.def)             Requested size: 221.0pt x 165.74194pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2 <./StepPC.png (PNG copy)> <./p-rej-step.png (PNG copy)> <./p-track-step.png
+ (PNG copy)>] <I-rej-step.png, id=28, 843.15pt x 632.3625pt>
+File: I-rej-step.png Graphic file (type png)
+ <use I-rej-step.png>
+Package pdftex.def Info: I-rej-step.png used on input line 139.
+(pdftex.def)             Requested size: 221.0pt x 165.74194pt.
+
+<I-track-step.png, id=29, 843.15pt x 632.3625pt>
+File: I-track-step.png Graphic file (type png)
+ <use I-track-step.png>
+Package pdftex.def Info: I-track-step.png used on input line 146.
+(pdftex.def)             Requested size: 221.0pt x 165.74194pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+<I-balance-step.png, id=30, 843.15pt x 632.3625pt>
+File: I-balance-step.png Graphic file (type png)
+ <use I-balance-step.png>
+Package pdftex.def Info: I-balance-step.png used on input line 153.
+(pdftex.def)             Requested size: 221.0pt x 165.74194pt.
+
+<PI-rej-step.png, id=31, 843.15pt x 632.3625pt>
+File: PI-rej-step.png Graphic file (type png)
+ <use PI-rej-step.png>
+Package pdftex.def Info: PI-rej-step.png used on input line 160.
+(pdftex.def)             Requested size: 221.0pt x 165.74194pt.
+
+Underfull \hbox (badness 3623) in paragraph at lines 161--161
+[]\OT1/cmr/m/n/10 Figure 11: Step re-sponse of the type PI-
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3 <./p-balance-step.png (PNG copy)> <./I-rej-step.png (PNG copy)> <./I-track-
+step.png (PNG copy)> <./I-balance-step.png (PNG copy)>]
+<PI-track-step.png, id=35, 843.15pt x 632.3625pt>
+File: PI-track-step.png Graphic file (type png)
+ <use PI-track-step.png>
+Package pdftex.def Info: PI-track-step.png used on input line 167.
+(pdftex.def)             Requested size: 221.0pt x 165.74194pt.
+
+<PI-balance-step.png, id=36, 843.15pt x 632.3625pt>
+File: PI-balance-step.png Graphic file (type png)
+ <use PI-balance-step.png>
+Package pdftex.def Info: PI-balance-step.png used on input line 174.
+(pdftex.def)             Requested size: 221.0pt x 165.74194pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+<PD-rej-step.png, id=37, 843.15pt x 632.3625pt>
+File: PD-rej-step.png Graphic file (type png)
+ <use PD-rej-step.png>
+Package pdftex.def Info: PD-rej-step.png used on input line 181.
+(pdftex.def)             Requested size: 221.0pt x 165.74194pt.
+
+Underfull \hbox (badness 2726) in paragraph at lines 182--182
+[]\OT1/cmr/m/n/10 Figure 14: Step re-sponse of the type PD-
+ []
+
+<PD-track-step.png, id=38, 843.15pt x 632.3625pt>
+File: PD-track-step.png Graphic file (type png)
+ <use PD-track-step.png>
+Package pdftex.def Info: PD-track-step.png used on input line 188.
+(pdftex.def)             Requested size: 221.0pt x 165.74194pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4 <./PI-rej-step.png (PNG copy)> <./PI-track-step.png (PNG copy)> <./PI-balan
+ce-step.png (PNG copy)> <./PD-rej-step.png (PNG copy)>]
+<PD-balance-step.png, id=42, 843.15pt x 632.3625pt>
+File: PD-balance-step.png Graphic file (type png)
+ <use PD-balance-step.png>
+Package pdftex.def Info: PD-balance-step.png used on input line 195.
+(pdftex.def)             Requested size: 221.0pt x 165.74194pt.
+
+<PID-rej-step.png, id=43, 843.15pt x 632.3625pt>
+File: PID-rej-step.png Graphic file (type png)
+ <use PID-rej-step.png>
+Package pdftex.def Info: PID-rej-step.png used on input line 202.
+(pdftex.def)             Requested size: 221.0pt x 165.74194pt.
+
+Underfull \hbox (badness 2050) in paragraph at lines 203--203
+[]\OT1/cmr/m/n/10 Figure 17: Step re-sponse of the type PID-
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+<PID-track-step.png, id=44, 843.15pt x 632.3625pt>
+File: PID-track-step.png Graphic file (type png)
+ <use PID-track-step.png>
+Package pdftex.def Info: PID-track-step.png used on input line 209.
+(pdftex.def)             Requested size: 221.0pt x 165.74194pt.
+
+<PID-balance-step.png, id=45, 843.15pt x 632.3625pt>
+File: PID-balance-step.png Graphic file (type png)
+
+<use PID-balance-step.png>
+Package pdftex.def Info: PID-balance-step.png used on input line 216.
+(pdftex.def)             Requested size: 221.0pt x 165.74194pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5 <./PD-track-step.png (PNG copy)> <./PD-balance-step.png (PNG copy)> <./PID-
+rej-step.png (PNG copy)> <./PID-track-step.png (PNG copy)>]
+Overfull \hbox (69.91707pt too wide) in paragraph at lines 223--231
+ [][] 
+ []
+
+
+Underfull \hbox (badness 1910) in paragraph at lines 235--235
+[]\OT1/cmr/bx/n/12 Analysis of the Sys-tem with
+ []
+
+[6 <./PID-balance-step.png (PNG copy)>] (Lab4Report.aux) ) 
+Here is how much of TeX's memory you used:
+ 5742 strings out of 493323
+ 80448 string characters out of 3144267
+ 274541 words of memory out of 3000000
+ 9167 multiletter control sequences out of 15000+200000
+ 12210 words of font info for 43 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 39i,11n,72p,694b,1541s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/LateX/MiKTeX/font
+s/enc/dvips/inconsolata/i4-ot1-0.enc}<C:/LateX/MiKTeX/fonts/type1/public/incons
+olata/Inconsolata-zi4r.pfb><C:/LateX/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx
+12.pfb><C:/LateX/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/LateX/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/LateX/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmmi10.pfb><C:/LateX/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+mi7.pfb><C:/LateX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/LateX/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/LateX/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmr12.pfb><C:/LateX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.p
+fb><C:/LateX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb>
+Output written on Lab4Report.pdf (7 pages, 733744 bytes).
+PDF statistics:
+ 90 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 96 words of extra memory for PDF output out of 10000 (max. 10000000)
+

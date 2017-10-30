@@ -1,0 +1,282 @@
+\documentclass[a4paper, twocolumn, titlepage, 10pt]{article}
+\usepackage{amsmath, graphicx, gensymb, float}
+\usepackage{mathtools}
+\usepackage{listings}
+\usepackage{lettrine}
+\usepackage{tabularx}
+\title{\textbf{ECSE 307 Linear Systems and Control} \linebreak Lab 4 Report}
+\author{Hai XU, 260661832 \and Wenjie WEI, 260685967}
+\date{October 25$^{th}$, 2017}
+\usepackage{color} %red, green, blue, yellow, cyan, magenta, black, white
+\usepackage{inconsolata}
+\definecolor{mygreen}{RGB}{28,172,0} % color values Red, Green, Blue
+\definecolor{mylilas}{RGB}{170,55,241}
+
+\lstset{language=Matlab,%
+	%basicstyle=\color{red},
+	basicstyle=\ttfamily,
+	breaklines=true,%
+	morekeywords={matlab2tikz},
+	keywordstyle=\color{blue},%
+	morekeywords=[2]{1}, keywordstyle=[2]{\color{black}},
+	identifierstyle=\color{black},%
+	stringstyle=\color{mylilas},
+	commentstyle=\color{mygreen},%
+	showstringspaces=false,%without this there will be a symbol in the places where there is a space
+	numbers=left,%
+	numberstyle={\tiny \color{black}},% size of the numbers
+	numbersep=9pt, % this defines how far the numbers are from the text
+	emph=[1]{for,end,break},emphstyle=[1]\color{red}, %some words to emphasise
+	%emph=[2]{word1,word2}, emphstyle=[2]{style},    
+}
+
+\begin{document}
+	\maketitle
+	\section{Introduction}
+		\lettrine{T}{his} lab introduces the methodologies to analyze the behavior of a dynamic system. Proportional, Integral, and Derivative (PID) controls are so far the most common type of controllers that are used. They are simple yet still able to give promising performance. Figure \ref{PIDData} shows what will happen if a PID controller is implemented.
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=\linewidth]{PIDData}
+			\caption{Key Changes that PID Systems Can Bring}
+			\label{PIDData}
+		\end{figure}
+	\section{Finding the PID Gains}
+		Consider a system transfer function as below:
+		\begin{equation}
+			G(s) = \frac{1}{(s+1)(s+2)(s+3)} 
+			\label{limit}
+		\end{equation}
+		Plot the step response using MATLAB. The step response of the system is shown in Figure \ref{G_step}:
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=\linewidth]{G_step}
+			\caption{Step Response of System G(s)}
+			\label{G_step}
+		\end{figure}
+		
+		Apply the MATLAB command:
+		\begin{lstlisting}[frame = single]
+	stepinfo(G);
+		\end{lstlisting}
+		A vector containing some critical values will be generated. Table \ref{trtsmptable} shows the most critical data for future analysis of the system:
+		%==========================================================
+		% TODO steady state error
+		%===========================================================
+		\begin{table}[H]
+			\centering
+			\begin{tabular}{c c c c}
+				$e_{ss}$ & $t_r$ & $t_s$ & $M_p$ \\
+				 & 2.7428 & 5.0039 & 0
+			\end{tabular}
+			\caption{Table of Some Critical Values}
+			\label{trtsmptable}
+		\end{table}
+		
+		Next, the root locus plot will be needed to explore the stability of the system if we change the gain of the system.
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=\linewidth]{rlocus}
+			\caption{Root-Locus Plot of the System}
+			\label{rlocusG}
+		\end{figure}
+		
+		Figure \ref{rlocusG} shows the root locus plot of the system G(s). From the MATLAB plot, we can find that at the marginal stability, gain $K = 60$ and frequency $\omega = 3.31 rad/s$.
+		
+		Using the information above, we are able to design a stable system with a proper gain. However, as can be seen from Table \ref{trtsmptable}, the rising time $t_r$ is really large, which means that this system responds slowsly to input signals. Idealy, we would like to design a controller that reduces the rise time, settling time, and eliminates the steady-state error. According to Figure \ref{PIDData}, a proportional controller decreases the rising time, and reduces the steady state error as well. Add a proportional controller by implementing the MATLAB code in the Section 3.2 of the Appendix, and find the step response characteristics for $k_p = 40$.
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=\linewidth]{StepPC}
+			\caption{Step Response of the P-Controller}
+			\label{steppc}
+		\end{figure}
+		
+		Figure \ref{steppc} shows the step response and Table shows the key response characteristics of the system after adding a proportional controller. 
+		\begin{table}[H]
+			\centering
+			\begin{tabular}{c c c c}
+				$e_{ss}$ & $t_r$ & $t_s$ & $M_p$ \\
+				& 0.4368 & 15.6105 & 67.6273
+			\end{tabular}
+			\caption{Table of the Key Characteristics of the P-Controller}
+			\label{responseCharPC}
+		\end{table}
+		
+		Compare the data in Table \ref{responseCharPC} and \ref{trtsmptable}, it can be seen clearly that by adding the P-Controller, the system is responding to an input signal much faster. However, the giant overshoot of this system makes the system not as stable as it was before, and the settling time becomes much longer meaning that it is taking longer for the system to reach a steady state.
+	
+	
+	%===============================================
+	% Question 2
+	%===========================================
+		
+	\section{Automatic PID Tuning with MATLAB}
+	In this section we start to consider G(s) in Equation \ref{limit}. For the unit feedback controlled system, we use the code in Appendix XXX in Appendix to plot the step response for each controller.
+	
+	By combining the type P and disturbance rejection, we get the step response shown in Figure \ref{p-rej-step}.
+   	\begin{figure}[H]
+   		\centering
+   		\includegraphics[width=\linewidth]{p-rej-step}
+   		\caption{Step response of the type P-Disturbance Rejection}
+   		\label{p-rej-step} 
+   	\end{figure}
+   
+   	By combining the type P and Reference Tracking, we get the step response shown in Figure \ref{p-track-step}.
+   \begin{figure}[H]
+   	\centering
+   	\includegraphics[width=\linewidth]{p-track-step}
+   	\caption{Step response of the type P-Reference Tracking}
+   	\label{p-track-step} 
+   \end{figure}
+		   	By combining the type P and Balanced, we get the step response shown in Figure \ref{p-balance-step}. 
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=\linewidth]{p-balance-step}
+		\caption{Step response of the type P-Balanced Tracking}
+		\label{p-balance-step} 
+	\end{figure}
+   	By combining the type I and Disturbance Rejection, we get the step response shown in Figure \ref{I-rej-step}.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{I-rej-step}
+	\caption{Step response of the type I-Disturbance Rejection}
+	\label{I-rej-step} 
+\end{figure}
+   	By combining the type I and Reference Tracking, we get the step response shown in Figure \ref{I-track-step}.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{I-track-step}
+	\caption{Step response of the type I-Reference Tracking}
+	\label{I-track-step} 
+\end{figure}
+	   	By combining the type I and Balanced, we get the step response shown in Figure \ref{I-balance-step}.
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=\linewidth]{I-balance-step}
+		\caption{Step response of the type I-Balanced}
+		\label{I-balance-step}
+	\end{figure}
+			   	By combining the type PI and Disturbance Rejection, we get the step response shown in Figure \ref{PI-rej-step}.
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=\linewidth]{PI-rej-step}
+			\caption{Step response of the type PI-Disturbance Rejection}
+			\label{PI-rej-step}
+		\end{figure}
+					   	By combining the type PI and Reference Tracking, we get the step response shown in Figure \ref{PI-track-step}.
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=\linewidth]{PI-track-step}
+			\caption{Step response of the type PI-Reference Tracking}
+			\label{PI-track-step}
+		\end{figure}
+					   	By combining the type PI and Balanced, we get the step response shown in Figure \ref{PI-balance-step}.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{PI-balance-step}
+	\caption{Step response of the type PI-Balanced}
+	\label{PI-balance-step}	
+\end{figure}
+						   	By combining the type PD and Disturbance Rejection, we get the step response shown in Figure \ref{PD-rej-step}.
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=\linewidth]{PD-rej-step}
+		\caption{Step response of the type PD-Disturbance Rejection}
+		\label{PD-rej-step}
+	\end{figure}	
+								   	By combining the type PD and Reference Tracking, we get the step response shown in Figure \ref{PD-track-step}.
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=\linewidth]{PD-track-step}
+			\caption{Step response of the type PD-Reference Tracking}
+			\label{PD-track-step}
+		\end{figure}
+						   	By combining the type PD and Balanced, we get the step response shown in Figure \ref{PD-balance-step}.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{PD-balance-step}
+	\caption{Step response of the type PD-Balanced}
+	\label{PD-balance-step}
+\end{figure}
+						   	By combining the type PID and Disturbance Rejection, we get the step response shown in Figure \ref{PID-rej-step}.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{PID-rej-step}
+	\caption{Step response of the type PID-Disturbance Rejection}
+	\label{PID-rej-step}
+\end{figure}
+						   	By combining the type PID and Reference Tracking, we get the step response shown in Figure \ref{PID-track-step}.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{PID-track-step}
+	\caption{Step response of the type PID-Reference Tracking}
+	\label{PID-track-step}
+\end{figure}
+						   	By combining the type PID and Balanced, we get the step response shown in Figure \ref{PID-balance-step}.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{PID-balance-step}
+	\caption{Step response of the type PID-Balanced}
+	\label{PID-balance-step}
+\end{figure}	
+The values of $K_P$, $K_I$ and $K_D$ for each combination of the options are shown in the table below.
+\begin{table}[H]
+	\centering
+	\begin{tabular}{c c c c}
+		Type & Disturbance Rejection & Reference Tracking & Balanced \\
+	 P	& 0.4368 & 15.6105 & 67.6273 \\ 
+	 I  &        &		   &		\\
+	 PI &		&		&		\\
+	 PD&		&		&		\\
+	 PID&		&		&		
+	\end{tabular}
+	\caption{Table of $K_P$, $K_I$ and $K_D$ for each combination of the options}
+	\label{combinations}
+\end{table}	
+	\section{Appendix: MATLAB Code for Modeling the PID Controller}
+		\subsection{Analysis of the System with Transfer Function \textit{G(s)}}
+			\begin{lstlisting}[frame=single]
+	G = tf([1], [1 6 11 6]);
+	figure(1)
+	hold on;
+	step(G);
+	stepinfo(G);
+	figure(2)
+	rlocus(G);
+			\end{lstlisting}
+		\subsection{Analysis of a Proportional Controller}
+			\begin{lstlisting}[frame=single]
+	C_P = pid(40);
+	open_loop = series(C_P, G);
+	H1 = feedback(open_loop, 1);
+	hold on;
+	figure(1)
+	step(H1);
+	stepinfo(H1);
+			\end{lstlisting}
+		\subsection{The codes for Proplem 2}
+			\begin{lstlisting}[frame=single]
+% CHOOSE ONE OF THE OPTIONS BELOW
+% opts = pidtuneOptions('DesignFocus', 'disturbance-rejection');
+% opts = pidtuneOptions('DesignFocus', 'reference-tracking');
+% opts = pidtuneOptions('DesignFocus', 'balanced');
+
+
+% CHOOSE ONE OF THE OPTIONS BELOW
+% type = 'P';
+% type = 'I';
+% type = 'PI';
+% type = 'PD';
+% type = 'PID';
+
+
+C_auto = pidtune(G, type, opts);
+open_loop_auto = series(C_auto, G);
+H_auto = feedback(open_loop_auto, 1);
+hold on;
+figure(1);
+step(H_auto);
+stepinfo(H_auto);
+figure(3)
+bode(G);
+	    	\end{lstlisting}	
+
+\end{document}
